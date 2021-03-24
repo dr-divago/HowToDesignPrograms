@@ -2,7 +2,7 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname ex39) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp")) #f)))
 (define WHEEL-RADIUS 5)
-(define WHEEL-DISTANCE (* WHEEL-RADIUS 3))
+(define WHEEL-DISTANCE (* WHEEL-RADIUS 5))
 
 (define WHEEL (circle WHEEL-RADIUS "solid" "black"))
 (define SPACE-WHEEL (rectangle WHEEL-DISTANCE WHEEL-RADIUS "solid" "white"))
